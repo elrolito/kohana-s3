@@ -2,8 +2,17 @@
 
 class Kohana_S3 extends Zend_Service_Amazon_S3 {
     
-    const ACL_PUBLIC_READ = self::S3_ACL_PUBLIC_READ;
-    const ACL_AUTHENTICATED_READ = self::S3_ACL_AUTHENTICATED_READ;
+    // simplified constants
+    const ENDPOINT = 's3.amazonaws.com';
+
+    const ACL_PRIVATE = 'private';
+    const ACL_PUBLIC_READ = 'public-read';
+    const ACL_PUBLIC_WRITE = 'public-read-write';
+    const ACL_AUTH_READ = 'authenticated-read';
+
+    const REQUESTPAY_HEADER = 'x-amz-request-payer';
+    const ACL_HEADER = 'x-amz-acl';
+    const CONTENT_TYPE_HEADER = 'Content-Type';
     
     /**
      * @var  string  default instance name
