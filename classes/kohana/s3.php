@@ -31,7 +31,7 @@ class Kohana_S3 extends Zend_Service_Amazon_S3 {
             new S3($name, $config);
         }
         
-        return S3::instance[$name];
+        return S3::instance($name);
     }
     
     protected $_instance;
