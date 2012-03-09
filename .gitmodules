@@ -1,0 +1,3 @@
+[submodule "vendor/Zend-Amazon-S3"]
+	path = vendor/Zend-Amazon-S3
+	url = https://github.com/thriveagency/Zend-Amazon-S3.git
