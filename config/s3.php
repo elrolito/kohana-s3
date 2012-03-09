@@ -5,6 +5,6 @@ return array
     'default' => array
     (
         'access_key'  => 'your access key',
-        'seceret_key' => 'shhhhhhhhhhh',
+        'secret_key' => 'shhhhhhhhhhh',
     ),
 );
